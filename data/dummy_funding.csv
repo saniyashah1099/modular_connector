@@ -1,0 +1,3 @@
+timestamp,exchange,pair,funding_rate,interval_hours
+2024-01-01 00:00:00,binance,BTCUSDT,0.0005,8
+2024-01-01 08:00:00,binance,BTCUSDT,0.0004,8

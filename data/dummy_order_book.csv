@@ -1,0 +1,7 @@
+price,side,quantity
+101,bid,10
+100,bid,8
+99,bid,7
+102,ask,6
+103,ask,9
+104,ask,10
