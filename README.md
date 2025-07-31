@@ -35,4 +35,6 @@ Your database should have multiple entries such as ->
 ![database_image!](timescale_db_orderbook.png)
 <br><br>
 
-Our orderbook is populated inside the database and updated every 1 second, using an async collector function. 
+Our orderbook is populated inside the database and updated every 1 second, using an async collector function.<br><br>
+
+10) Finally, I have attached a pdf 'Open_Ended_Questions.pdf' which answers the 3 open ended questions.
