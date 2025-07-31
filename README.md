@@ -9,7 +9,7 @@ Hello, a few instructions and comments on how to run this repository smoothly -
 
 ![symbol_mapper_image!](symbol_mapper_image.png)
 
-4) For task 5, firstly, we need to create a timescaledb database. Assuming the user has timescaledb, open terminal and run the following command -><br>
+4) For task 5, firstly, we need to create a timescaledb database. Assuming the user has timescaledb installed, open terminal and run the following command -><br>
  "docker exec -it timescaledb psql -U postgres -d postgres"<br><br>
 
 5) This would take us inside postgres database and we create a dummy database with this command -><br>
