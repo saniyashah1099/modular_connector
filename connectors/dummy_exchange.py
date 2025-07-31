@@ -1,14 +1,9 @@
 import pandas as pd
 
-def get_best_bid_ask():
-    df = pd.read_csv('data/dummy_order_book.csv')
-    best_bid = df[df['side'] == 'bid']['price'].max()
-    best_ask = df[df['side'] == 'ask']['price'].min()
-    return best_bid, best_ask
-
-def get_order_book():
-    df = pd.read_csv('data/dummy_order_book.csv')
-    return df[df['side'] == 'bid'], df[df['side'] == 'ask']
+def get_best_bid_ask(order_book_df):
+    best_bid = order_book_df[order_book_df["side"] == "bid"].sort_values(by="price", ascending=False).iloc[0]
+    best_ask = order_book_df[order_book_df["side"] == "ask"].sort_values(by="price", ascending=True).iloc[0]
+    return best_bid["price"], best_ask["price"]
 
 def get_funding_rates():
     df = pd.read_csv('data/dummy_funding.csv')

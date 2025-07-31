@@ -34,7 +34,8 @@ def calculate_apr(funding_rates_df):
     for _, row in funding_rates_df.iterrows():
         rate = row['funding_rate']
         interval_hours = row['interval_hours']
-        periods_per_year = 365 * 24 / interval_hours
+        annualised_factor = 365
+        periods_per_year = annualised_factor * 24 / interval_hours
         total_apr += rate * periods_per_year
 
     return round(total_apr, 4)
