@@ -2,3 +2,7 @@
 2) For tasks 1,2 and 3, run main.py file and the output would look like 
 
 ![main_py_image!](main_py_image.png)
+
+3) For task 4, run file run_symbol_mapper.py to see an output like 
+
+![symbol_mapper_image!](symbol_mapper_image.png)
