@@ -14,7 +14,7 @@ Hello, a few instructions and comments on how to run this repository smoothly - 
  "docker exec -it timescaledb psql -U postgres -d postgres"<br><br>
 
 5) This would take us inside postgres database and we create a dummy database with this command -><br>
- "CREATE DATABASE dummy;"<br><br>
+ "CREATE DATABASE dummy;"<br>
  Now, exit timescaledb using "exit".<br><br>
 
 6) We are creating a username and password as follows -> <br>
