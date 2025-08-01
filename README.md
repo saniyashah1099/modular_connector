@@ -30,7 +30,11 @@ ALTER SCHEMA public OWNER TO saniyashah;"<br><br>
 8) After this, we run store_order_book.py (modular_connector/utils/store_order_book.py) that will call the combined_order_book function and append the newly made order book. 'collect_and_store' function will create a table called 'order_book_snapshots' inside timescaledb database. <br>
 [ Important note -> inside store_order_book.py, on line no 19, 'engine = create_engine('postgresql://saniyashah:your_secure_password@localhost:5432/dummy')', kindly replace 'saniyashah' with your username and 'your_secure_password' with your password ]<br><br>
 
-9) After running, store_order_book.py file, your order book data should be appended inside the database in table 'order_book_snapshots' by running -> <br>
+9) Install 2 packages sqlalchemy, psycopg2 <br>
+pip3 install sqlalchemy<br>
+pip3 install psycopg2-binary<br><br>
+
+10) After running, store_order_book.py file, your order book data should be appended inside the database in table 'order_book_snapshots' by running inside dummy database -> <br>
 SELECT * FROM order_book_snapshots;<br>
 Your database should have multiple entries such as ->
 
@@ -39,4 +43,4 @@ Your database should have multiple entries such as ->
 
 Our orderbook is populated inside the database and updated every 1 second, using an async collector function.<br><br>
 
-10) Finally, I have attached a pdf 'Open_Ended_Questions.pdf' which answers the 3 open ended questions.
+11) Finally, I have attached a pdf 'Open_Ended_Questions.pdf' which answers the 3 open ended questions.
