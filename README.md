@@ -1,4 +1,5 @@
-Hello, a few instructions and comments on how to run this repository smoothly (git clone https://github.com/saniyashah1099/modular_connector.git) -
+Hello, a few instructions and comments on how to run this repository smoothly - <br><br>
+(to clone the repository -> git clone https://github.com/saniyashah1099/modular_connector.git) -
 
 1) I have created a dummy infrastructure that generates crypto currency prices using a random function and performs functionalities as mentioned in the "Work Trail Crypto" pdf. <br><br>
 2) For tasks 1,2 and 3, run main.py file and the output would look like <br>
