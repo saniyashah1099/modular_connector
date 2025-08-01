@@ -1,6 +1,6 @@
 Hello, a few instructions and comments on how to run this repository smoothly -
 
-1) I have created a dummy infrastructure that generates crypto currency prices using a random function and performs functionalities as mentioned in the "Work Trail Crpto" pdf. <br><br>
+1) I have created a dummy infrastructure that generates crypto currency prices using a random function and performs functionalities as mentioned in the "Work Trail Crypto" pdf. <br><br>
 2) For tasks 1,2 and 3, run main.py file and the output would look like <br>
 
 ![main_py_image!](main_py_image.png)
