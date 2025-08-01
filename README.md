@@ -1,5 +1,5 @@
 Hello, a few instructions and comments on how to run this repository smoothly - <br>
-(to clone the repository -> git clone https://github.com/saniyashah1099/modular_connector.git)<br><br>
+( to clone the repository -> git clone https://github.com/saniyashah1099/modular_connector.git )<br><br>
 
 1) I have created a dummy infrastructure that generates crypto currency prices using a random function and performs functionalities as mentioned in the "Work Trail Crypto" pdf. <br><br>
 2) For tasks 1,2 and 3, run main.py file and the output would look like <br>
@@ -42,6 +42,6 @@ Your database should have multiple entries such as ->
 ![database_image!](timescale_db_orderbook.png)
 <br><br>
 
-Our orderbook is populated inside the database and updated every 1 second, using an async collector function.<br><br>
+Our orderbook is populated inside the database and updated every 1 second (you can change it according to your needs :- "interval=1", 1 stands for 1 second), using an async collector function.<br><br>
 
 11) Finally, I have attached a pdf 'Open_Ended_Questions.pdf' which answers the 3 open ended questions.
