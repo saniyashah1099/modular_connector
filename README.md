@@ -32,7 +32,7 @@ ALTER SCHEMA public OWNER TO saniyashah;"<br><br>
 'engine = create_engine('postgresql://saniyashah:your_secure_password@localhost:5432/dummy')', kindly replace 'saniyashah' with your username and 'your_secure_password' with your password ]<br><br>
 
 9) Install 2 packages sqlalchemy, psycopg2 - <br>
-pip3 install sqlalchemy<br><br> 
+pip3 install sqlalchemy<br>
 pip3 install psycopg2-binary<br><br>
 
 10) After running, store_order_book.py file, your order book data should be appended inside the database in table 'order_book_snapshots' by running inside dummy database -> <br>
