@@ -15,6 +15,7 @@ Hello, a few instructions and comments on how to run this repository smoothly - 
 
 5) This would take us inside postgres database and we create a dummy database with this command -><br>
  "CREATE DATABASE dummy;"<br><br>
+ Now, exit timescaledb using "exit".<br><br>
 
 6) We are creating a username and password as follows -> <br>
 "CREATE ROLE saniyashah WITH LOGIN PASSWORD 'your_secure_password';<br>
